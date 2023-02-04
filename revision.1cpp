@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+class Product{
+    int id;         //4
+    char name[100]; //100
+    public:
+        int mrp;        //4
+        int selling_price;//4
+
+};
+int main(){
+    Product camera;
+    cout<<sizeof(camera) <<endl;
+    cout<<camera.mrp<<endl;
+}
